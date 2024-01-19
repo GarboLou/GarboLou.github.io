@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Jiaqi Lou / Site Title"
+title                    : "Jiaqi Lou"
 title_separator          : "-"
 name                     : &name "Jiaqi Lou"
 description              : &description "personal description"
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/jiaqi-garbo-lou-601b02168/"
+  linkedin         : "jiaqi-garbo-lou-601b02168/"
   orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :

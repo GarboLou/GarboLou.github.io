@@ -2,7 +2,7 @@
 title: "MESA: Microarchitecture Extensions for Spatial Architecture Generation"
 collection: publications
 permalink: /publication/2023-mesa-isca
-excerpt: 'Dong Kai Wang, Jiaqi Lou, Naiyin Jin, Edwin Mascarenhas, Rohan Mahapatra, Sean Kinzer, Soroush Ghodrati, Amir Yazdanbakhsh, Hadi Esmaeilzadeh, Nam Sung Kim. [paper](https://dl.acm.org/doi/pdf/10.1145/3579371.3589084)'
+excerpt: 'Dong Kai Wang, **Jiaqi Lou**, Naiyin Jin, Edwin Mascarenhas, Rohan Mahapatra, Sean Kinzer, Soroush Ghodrati, Amir Yazdanbakhsh, Hadi Esmaeilzadeh, Nam Sung Kim. [[paper](https://dl.acm.org/doi/pdf/10.1145/3579371.3589084)]'
 date: '2023.6.17'
 venue: 'ISCA'
 ---

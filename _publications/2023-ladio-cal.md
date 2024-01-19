@@ -2,7 +2,7 @@
 title: "LADIO: Leakage-Aware Direct I/O for I/O-Intensive Workloads"
 collection: publications
 permalink: /publication/2023-ladio-cal
-excerpt: 'Ipoom Jeong, Jiaqi Lou, Yongseok Son, Yongjoo Park, Yifan Yuan, Nam Sung Kim. [paper](https://ieeexplore.ieee.org/abstract/document/10171430)'
+excerpt: 'Ipoom Jeong, **Jiaqi Lou**, Yongseok Son, Yongjoo Park, Yifan Yuan, Nam Sung Kim. [[paper](https://ieeexplore.ieee.org/abstract/document/10171430)]'
 date: '2023.7.3'
 venue: 'IEEE Computer Architecture Letters'
 ---

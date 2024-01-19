@@ -2,7 +2,7 @@
 title: "Demystifying cxl memory with genuine cxl-ready systems and devices"
 collection: publications
 permalink: /publication/2023-cxl-micro
-excerpt: 'Yan Sun, Yifan Yuan, Zeduo Yu, Reese Kuper, Chihun Song, Jinghan Huang, Houxiang Ji, Siddharth Agarwal, Jiaqi Lou, Ipoom Jeong, Ren Wang, Jung Ho Ahn, Tianyin Xu, Nam Sung Kim. [paper](https://dl.acm.org/doi/abs/10.1145/3613424.3614256)'
+excerpt: 'Yan Sun, Yifan Yuan, Zeduo Yu, Reese Kuper, Chihun Song, Jinghan Huang, Houxiang Ji, Siddharth Agarwal, **Jiaqi Lou**, Ipoom Jeong, Ren Wang, Jung Ho Ahn, Tianyin Xu, Nam Sung Kim. [[paper](https://dl.acm.org/doi/abs/10.1145/3613424.3614256)]'
 date: '2023.10.28'
 venue: 'MICRO'
 ---
