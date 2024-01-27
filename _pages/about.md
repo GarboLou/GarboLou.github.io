@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Biography"
+title: ""
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,6 +8,8 @@ redirect_from:
   - /about.html
 ---
 
+Biography
+======
 I am a third-year Ph.D. student in the Department of Electrical and Computer Engineering at [University of Illinois at Urbana-Champaign (UIUC)](https://illinois.edu/), advised by [Prof. Nam Sung Kim](https://fast.ece.illinois.edu/). Before joining UIUC in 2021, I received my dual bachelor’s degree in Electrical Engineering from both Zhejiang University and UIUC.
 
 
