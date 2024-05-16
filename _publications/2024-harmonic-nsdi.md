@@ -2,7 +2,7 @@
 title: "Hardware-assisted RDMA Performance Isolation for Public Clouds"
 collection: publications
 permalink: /publication/2024-harmonic-nsdi
-excerpt: '**Jiaqi Lou**\*, Xinhao Kong\*, Jinghan Huang, Wei Bai, Nam Sung Kim, Danyang Zhuo. [[paper](https://www.usenix.org/conference/nsdi24/presentation/lou)]'
+excerpt: '**Jiaqi Lou**\*, Xinhao Kong\*, Jinghan Huang, Wei Bai, Nam Sung Kim, Danyang Zhuo. <br /> <br /> [paper](https://www.usenix.org/conference/nsdi24/presentation/lou){: .btn--research}'
 date: '2024.4.16'
 venue: 'NSDI'
 ---

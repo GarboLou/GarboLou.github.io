@@ -2,7 +2,7 @@
 title: "Making Sense of Using a SmartNIC to Reduce Datacenter Tax from SLO and TCO Perspectives"
 collection: publications
 permalink: /publication/2023-smartnic-iiswc
-excerpt: 'Jinghan Huang, **Jiaqi Lou**, Yan Sun, Tianchen Wang, Eun Kyung Lee, Nam Sung Kim. [[paper](https://ieeexplore.ieee.org/abstract/document/10289567)]'
+excerpt: 'Jinghan Huang, **Jiaqi Lou**, Yan Sun, Tianchen Wang, Eun Kyung Lee, Nam Sung Kim. <br /> <br /> [paper](https://ieeexplore.ieee.org/abstract/document/10289567){: .btn--research}'
 date: '2023.10.1'
 venue: 'IISWC'
 ---
