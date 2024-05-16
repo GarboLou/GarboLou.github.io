@@ -2,7 +2,7 @@
 title: "Towards a Manageable Intra-Host Network"
 collection: publications
 permalink: /publication/2023-manageable-hostos
-excerpt: 'Xinhao Kong, **Jiaqi Lou**, Wei Bai, Nan Sung Kim, Danyang Zhuo. <br /> <br /> [paper](https://dl.acm.org/doi/abs/10.1145/3593856.3595890){: .btn--research}'
+excerpt: 'Xinhao Kong, **Jiaqi Lou**, Wei Bai, Nan Sung Kim, Danyang Zhuo. <br /> [paper](https://dl.acm.org/doi/abs/10.1145/3593856.3595890){: .btn--research}'
 date: '2023.6.22'
 venue: 'HotOS'
 ---

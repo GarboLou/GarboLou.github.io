@@ -2,7 +2,7 @@
 title: "Analyzing Energy Efficiency of a Server with a SmartNIC under SLO Constraints"
 collection: publications
 permalink: /publication/2023-smartnic-poster-ispass
-excerpt: 'Jinghan Huang, **Jiaqi Lou**, Yan Sun, Tianchen Wang, Eun Kyung Lee, Nam Sung Kim. <br /> <br /> [paper](https://ieeexplore.ieee.org/abstract/document/10158228){: .btn--research}'
+excerpt: 'Jinghan Huang, **Jiaqi Lou**, Yan Sun, Tianchen Wang, Eun Kyung Lee, Nam Sung Kim. <br /> [paper](https://ieeexplore.ieee.org/abstract/document/10158228){: .btn--research}'
 date: '2023.4.23'
 venue: 'ISPASS'
 ---
