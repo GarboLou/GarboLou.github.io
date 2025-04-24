@@ -122,6 +122,7 @@ include:
   - .htaccess
   - _pages
   - files
+  - assets/css/custom.scss
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
