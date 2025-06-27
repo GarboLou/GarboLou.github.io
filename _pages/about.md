@@ -30,6 +30,7 @@ Teaching
 
 Awards / Honors
 ======
+- Wen-mei Hwu Fellowship, 2024
 - IISWC 2023 Best Paper Runner-Up Award, 2023
 - Promise of Excellence Fellowship, University of Illinois at Urbana-Champaign, 2021
 - Zhejiang Univeristy Outstanding Graduation Award, 2021
