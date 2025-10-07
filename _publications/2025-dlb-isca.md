@@ -1,7 +1,7 @@
 ---
 title: "Dynamic Load Balancer in Intel Xeon Scalable Processor: Performance Analyses, Enhancements, and Guidelines"
 collection: publications
-permalink: /publication/2024-dlb-isca
+permalink: /publication/2025-dlb-isca
 excerpt: '**Jiaqi Lou**, Srikar Vanavasam, Yifan Yuan, Ren Wang, Nam Sung Kim. <br /> [paper](https://dl.acm.org/doi/pdf/10.1145/3695053.3731026){: .btn--research}'
 date: '2025.6.23'
 venue: 'ISCA'
