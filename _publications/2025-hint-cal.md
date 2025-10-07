@@ -2,7 +2,7 @@
 title: "HINT: A Hardware Platform for Intra-host NIC Traffic and SmartNIC Emulation"
 collection: publications
 permalink: /publication/2025-hint-cal
-excerpt: '**Jiaqi Lou***, Yu Li*, Srikar Vanavasam, Nam Sung Kim. <br /> [paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11048525){: .btn--research}'
+excerpt: '**Jiaqi Lou**\*, Yu Li\*, Srikar Vanavasam, Nam Sung Kim. <br /> [paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11048525){: .btn--research}'
 date: '2025.4'
 venue: 'CAL'
 paperurl: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11048525
