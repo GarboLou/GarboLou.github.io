@@ -1,0 +1,27 @@
+"ISCA":
+  url: https://iscaconf.org/
+  color: "#285FA8"
+
+"NSDI":
+  url: https://www.usenix.org/conference/nsdi24
+  color: "#4C82BF"
+
+"MICRO":
+  url: https://microarch.org/
+  color: "#6F78B6"
+
+"HotOS":
+  url: https://sigops.org/s/conferences/hotos/
+  color: "#B9678B"
+
+"IISWC":
+  url: https://www.iiswc.org/
+  color: "#C77727"
+
+"ISPASS":
+  url: https://www.ispass.org/
+  color: "#718D3F"
+
+"CAL":
+  url: https://www.computer.org/csdl/magazine/ca
+  color: "#D85C45"

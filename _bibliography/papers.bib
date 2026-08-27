@@ -1,0 +1,123 @@
+---
+---
+
+@inproceedings{lou2023cxlmicro,
+  abbr = {MICRO},
+  title = {{Demystifying CXL Memory with Genuine CXL-Ready Systems and Devices}},
+  author = {Yan Sun and Yifan Yuan and Zeduo Yu and Reese Kuper and Chihun Song and Jinghan Huang and Houxiang Ji and Siddharth Agarwal and Jiaqi Lou and Ipoom Jeong and Ren Wang and Jung Ho Ahn and Tianyin Xu and Nam Sung Kim},
+  year = {2023},
+  booktitle = {IEEE/ACM International Symposium on Microarchitecture},
+  html = {https://dl.acm.org/doi/abs/10.1145/3613424.3614256},
+  abstract = {The ever-growing demands for memory with larger capacity and higher bandwidth have driven recent innovations on memory expansion and disaggregation technologies based on Compute eXpress Link (CXL). Especially, CXL-based memory expansion technology has recently gained notable attention for its ability not only to economically expand memory capacity and bandwidth but also to decouple memory technologies from a specific memory interface of the CPU. However, since CXL memory devices have not been widely available, they have been emulated using DDR memory in a remote NUMA node. In this paper, for the first time, we comprehensively evaluate a true CXL-ready system based on the latest 4th-generation Intel Xeon CPU with three CXL memory devices from different manufacturers. Specifically, we run a set of microbenchmarks not only to compare the performance of true CXL memory with that of emulated CXL memory but also to analyze the complex interplay between the CPU and CXL memory in depth. This reveals important differences between emulated CXL memory and true CXL memory, some of which will compel researchers to revisit the analyses and proposals from recent work. Next, we identify opportunities for memory-bandwidth-intensive applications to benefit from the use of CXL memory. Lastly, we propose a CXL-memory-aware dynamic page allocation policy, Caption to more efficiently use CXL memory as a bandwidth expander. We demonstrate that Caption can automatically converge to an empirically favorable percentage of pages allocated to CXL memory, which improves the performance of memory-bandwidth-intensive applications by up to 24\% when compared to the default page allocation policy designed for traditional NUMA systems.}
+}
+
+@article{lou2023ladiocal,
+  abbr = {CAL},
+  title = {{LADIO: Leakage-Aware Direct I/O for I/O-Intensive Workloads}},
+  author = {Ipoom Jeong and Jiaqi Lou and Yongseok Son and Yongjoo Park and Yifan Yuan and Nam Sung Kim},
+  year = {2023},
+  journal = {IEEE Computer Architecture Letters},
+  html = {https://ieeexplore.ieee.org/abstract/document/10171430},
+  abstract = {The advancement in I/O technology has posed an unprecedented demand for high-performance processing on I/O data, leading to the development of Data Direct I/O (DDIO) technology. DDIO improves I/O processing efficiency by directly injecting all inbound I/O data into the last-level cache (LLC) in cooperation with any type of I/O device. Nonetheless, in certain scenarios with more than one I/O applications, DDIO may have sub-optimal performance caused by interference inside the LLC, resulting in the degradation of system performance. Especially, in this paper, we demonstrate that storage I/O on modern high-performance NVMe SSDs hardly benefits from DDIO, sometimes causing inefficient use of the shared LLC due to the "leaky DMA problem". To address this problem, we propose LADIO, an adaptive approach that mitigates inter-application interference by dynamically controlling the DDIO functionality and reallocating LLC ways based on the leakage and locality of storage I/O data, respectively. In scenarios with heavy I/O interference, LADIO improves the throughput of network-intensive applications by 20\% while maintaining that of storage-intensive applications.}
+}
+
+@inproceedings{lou2023manageablehostos,
+  abbr = {HotOS},
+  title = {{Towards a Manageable Intra-Host Network}},
+  author = {Xinhao Kong and Jiaqi Lou and Wei Bai and Nam Sung Kim and Danyang Zhuo},
+  year = {2023},
+  booktitle = {Workshop on Hot Topics in Operating Systems},
+  html = {https://dl.acm.org/doi/abs/10.1145/3593856.3595890},
+  abstract = {Intra-host networks, including heterogeneous devices and interconnect fabrics, have become increasingly complex and crucial. However, intra-host networks today do not provide sufficient manageability. This prevents data center operators from running a reliable and efficient end-to-end network, especially for multi-tenant clouds. In this paper, we analyze the main manageability deficiencies of intra-host networks and argue that a systematic solution should be implemented to bridge this function gap. We propose two key building blocks for a manageable intra-host network: a fine-grained monitoring system and a holistic resource manager. We discuss the research questions associated with realizing these two building blocks.}
+}
+
+@inproceedings{lou2023mesaisca,
+  abbr = {ISCA},
+  title = {{MESA: Microarchitecture Extensions for Spatial Architecture Generation}},
+  author = {Dong Kai Wang and Jiaqi Lou and Naiyin Jin and Edwin Mascarenhas and Rohan Mahapatra and Sean Kinzer and Soroush Ghodrati and Amir Yazdanbakhsh and Hadi Esmaeilzadeh and Nam Sung Kim},
+  year = {2023},
+  booktitle = {International Symposium on Computer Architecture},
+  html = {https://dl.acm.org/doi/abs/10.1145/3579371.3589084},
+  abstract = {Modern heterogeneous CPUs incorporate hardware accelerators to enable domain-specialized execution and achieve improved efficiency. A well-known class among them, spatial accelerators, are designed with reconfigurability to accelerate a wide range of compute-heavy and data-parallel applications. Unlike CPU cores, however, they tend to require specialized compilers and software stacks, libraries, or languages to operate and cannot be utilized with ease by all applications. As a result, the accelerator's large pool of compute and memory resources sit wastefully idle when it is not explicitly programmed. Our goal is to dismantle this CPU-accelerator barrier by monitoring CPU threads for acceleration opportunities during execution and, if viable, dynamically reconfigure the accelerator to allow transparent offloading. We develop MESA (Microarchitecture Extensions for Spatial Architecture Generation), a hardware block on the CPU that translates machine code to build an accelerator configuration specialized for the running program. While such a dynamic translation/reconfiguration approach is challenging, it has a key advantage over ahead-of-time compilers: access to runtime information, revealing not only dynamic dependencies but also performance characteristics. MESA maintains a real-time performance model of the program mapped on the accelerator in the form of a spatial dataflow graph with nodes weighted by operation latency and edges weighted by data transfer latency. Features of this dataflow graph are continuously updated with runtime information captured by performance counters, allowing a feedback loop of optimization, reconfiguration, and acceleration. This performance model allows MESA to identify the accelerator's critical paths and pinpoint its bottlenecks, upon which we implement in hardware a data-driven instruction mapping algorithm that locally minimizes latency. Backed by a synthesized RTL implementation, we evaluate the feasibility of our microarchitectural solution with different accelerator configurations. Across the Rodinia benchmarks, results demonstrate an average 1.3x speedup in performance and 1.8x gain in energy efficiency against a multicore CPU baseline.}
+}
+
+@inproceedings{lou2023smartniciiswc,
+  abbr = {IISWC},
+  title = {{Making Sense of Using a SmartNIC to Reduce Datacenter Tax from SLO and TCO Perspectives}},
+  author = {Jinghan Huang and Jiaqi Lou and Yan Sun and Tianchen Wang and Eun Kyung Lee and Nam Sung Kim},
+  year = {2023},
+  booktitle = {IEEE International Symposium on Workload Characterization},
+  html = {https://ieeexplore.ieee.org/abstract/document/10289567},
+  abstract = {The speed of network interfaces has rapidly increased, while the performance and energy efficiency of CPUs have not, due to the demise of Dennard scaling. As a result, functions processing network packets have become responsible for a rapidly increasing portion of the datacenter tax. To tackle this problem, the industry has developed SmartNICs (SNICs) integrating conventional NICs with inexpensive and energy-efficient processors that can efficiently execute functions widely used by network-intensive datacenter applications. With such processors, the SNICs promise to reduce the total cost of ownership (TCO) for datacenters by increasing energy efficiency of servers and/or decreasing the number of expensive server CPU cores. In this paper, to make sense of using SNICs, we focus on analyzing energy efficiency of a server with an SNIC, especially under service level objective (SLO) constraints which matter for many datacenter applications. To this end, we not only measure the system-wide power consumption of a server but also devise a custom hardware setup that allows us to isolate the power consumption of the SNIC from that of the server. This helps us better understand the impact of using SNICs on energy efficiency of servers. Second, we take popular TCP/UDP, DPDK, and RDMA-based functions, and prepare them to run on an SNIC processor and a server CPU. Then, we measure maximum throughput, tail latency, system-wide energy efficiency of executing the functions on the SNIC processor and the server CPU, respectively. Lastly, based on analyses of the measurements, we make five key observations and three strategies to better use and design SmartNICs in the future.}
+}
+
+@inproceedings{lou2023smartnicposterispass,
+  abbr = {ISPASS},
+  title = {{Analyzing Energy Efficiency of a Server with a SmartNIC under SLO Constraints}},
+  author = {Jinghan Huang and Jiaqi Lou and Yan Sun and Tianchen Wang and Eun Kyung Lee and Nam Sung Kim},
+  year = {2023},
+  booktitle = {IEEE International Symposium on Performance Analysis of Systems and Software},
+  html = {https://ieeexplore.ieee.org/abstract/document/10158228},
+  abstract = {Network processing has become a fast-increasing portion of the datacenter tax. To tackle this problem, the industry introduced SmartNICs comprising energy-efficient CPU cores, FPGA and/or accelerators. With architectures optimized for network-intensive applications, they promise to notably reduce the total cost of ownership (TCO) of datacenters primarily through improving energy efficiency. As such, this paper sets out to investigate the overall energy efficiency of an Intel Xeon CPU based server with an NVIDIA BlueField-2 SmartNIC, especially under service level objective (SLO) constraints which matter for many datacenter services.}
+}
+
+@inproceedings{lou2024halisca,
+  abbr = {ISCA},
+  title = {{HAL: Hardware-assisted Load Balancing for Energy-efficient SNIC-Host Cooperative Computing}},
+  author = {Jinghan Huang and Jiaqi Lou and Srikar Vanavasam and Xinhao Kong and Houxiang Ji and Ipoom Jeong and Danyang Zhuo and Eun Kyung Lee and Nam Sung Kim},
+  year = {2024},
+  booktitle = {International Symposium on Computer Architecture},
+  html = {https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10609665},
+  abstract = {A typical SmartNIC (SNIC) integrates a processor comprising Arm CPU and accelerators with a conventional NIC. The processor is designed to energy-efficiently execute network functions frequently used by datacenter applications. With such a processor, the SNIC has promised to notably improve the systemwide energy efficiency of datacenter servers. Nevertheless, the latest trend of integrating accelerators into server CPUs for these functions sparks a question on the SNIC processor's superiority over a host processor (i.e., server CPU with accelerators) in system-wide energy efficiency, especially under given tail latency constraints. Answering this question, we first take an Intel Xeon processor, integrated with various accelerators (e.g., QuickAssist Technology), as a host processor, and then compare it to an NVIDIA BlueField-2 SNIC processor. This uncovers that (1) the host accelerator, coupled with a more powerful memory subsystem, can outperform the SNIC accelerator, and (2) the SNIC processor can improve system-wide energy efficiency only at low packet rates for most functions under tail latency constraints. To provide high system-wide energy efficiency without compromising tail latency at any packet rates, we propose HAL, consisting of a hardware-based load balancer and an intelligent load balancing policy implemented inside the SNIC. When HAL determines that the SNIC processor cannot efficiently process a given function beyond a specific packet rate, it limits the rate of packets to the SNIC processor and lets the host processor handle the excess. We implement a HAL-enabled SNIC with a commodity FPGA and a BlueField-2 SNIC, plug it into a commodity server, and run 10 popular network functions. Our evaluation shows that HAL can improve the system-wide energy efficiency and throughput of the server running these functions by 31\% and 10\%, respectively, without notably increasing the tail latency.}
+}
+
+@inproceedings{lou2024harmonicnsdi,
+  abbr = {NSDI},
+  title = {{Hardware-assisted RDMA Performance Isolation for Public Clouds}},
+  author = {Jiaqi Lou* and Xinhao Kong* and Jinghan Huang and Wei Bai and Nam Sung Kim and Danyang Zhuo},
+  year = {2024},
+  booktitle = {USENIX Symposium on Networked Systems Design and Implementation},
+  html = {https://www.usenix.org/conference/nsdi24/presentation/lou},
+  abstract = {Performance isolation is essential for sharing resources in multi-tenant public clouds. Compared with traditional kernel-based networking, RDMA presents unique challenges especially because RDMA NIC's complex microarchitecture resources are often hidden from users. Current RDMA isolation methods overlook these microarchitecture resources, leading to insufficient performance isolation. Consequently, a faulty/malicious tenant can exploit these microarchitecture resources to compromise well-behaved tenants' network performance. In this paper, we introduce the first microarchitecture-resource-aware RDMA performance isolation solution for public clouds, Harmonic. It consists of two key components designed to be conscious of the RDMA NIC's microarchitectural resources: (1) a programmable intelligent PCIe switch (prototyped with FPGA) and (2) an RDMA-friendly rate limiter. At runtime, these two components allow us to accurately monitor and modulate the RDMA NIC resource usage per tenant. We evaluate Harmonic with a state-of-the-art RDMA performance isolation test suite (Husky) and a popular in-memory database application (Redis). We demonstrate that Harmonic can not only successfully pass Husky but also provide Redis with 1.4x higher throughput than the best alternative isolation solution.},
+  annotation = {* Equal authorship},
+  selected = {true}
+}
+
+@inproceedings{lou2025a4isca,
+  abbr = {ISCA},
+  title = {{A4: Microarchitecture-Aware LLC Management for Datacenter Servers with Emerging I/O Devices}},
+  author = {Haneul Park and Jiaqi Lou and Sangjin Lee and Yifan Yuan and Kyoung Soo Park and Yongseok Son and Ipoom Jeong and Nam Sung Kim},
+  year = {2025},
+  booktitle = {International Symposium on Computer Architecture},
+  html = {https://dl.acm.org/doi/pdf/10.1145/3695053.3731114},
+  abstract = {In modern server CPUs, the Last-Level Cache (LLC) serves not only as a victim cache for higher-level private caches but also as a buffer for low-latency DMA transfers between CPU cores and I/O devices through Direct Cache Access (DCA). However, prior work has shown that high-bandwidth network-I/O devices can rapidly flood the LLC with packets, often causing significant contention with co-running workloads. One step further, this work explores hidden microarchitectural properties of the Intel Xeon CPUs, uncovering two previously unrecognized LLC contentions triggered by emerging high-bandwidth I/O devices. Specifically, (C1) DMA-written cache lines in LLC ways designated for DCA (referred to as DCA ways) are migrated to certain LLC ways (denoted as inclusive ways) when accessed by CPU cores, unexpectedly contending with non-I/O cache lines within the inclusive ways. In addition, (C2) high-bandwidth storage-I/O devices, which are increasingly common in datacenter servers, benefit little from DCA while contending with (latency-sensitive) network-I/O devices within DCA ways. To this end, we present A4, a runtime LLC management framework designed to alleviate both (C1) and (C2) among diverse co-running workloads, using a hidden knob and other hardware features implemented in those CPUs. Additionally, we demonstrate that A4 can also alleviate other previously known network-I/O-driven LLC contentions. Overall, it improves the performance of latency-sensitive, high-priority workloads by 51\% without notably compromising that of low-priority workloads.},
+  artifact_available = {true},
+  artifact_evaluated_functional = {true},
+  results_reproduced = {true}
+}
+
+@inproceedings{lou2025dlbisca,
+  abbr = {ISCA},
+  title = {{Dynamic Load Balancer in Intel Xeon Scalable Processor: Performance Analyses, Enhancements, and Guidelines}},
+  author = {Jiaqi Lou and Srikar Vanavasam and Yifan Yuan and Ren Wang and Nam Sung Kim},
+  year = {2025},
+  booktitle = {International Symposium on Computer Architecture},
+  html = {https://dl.acm.org/doi/pdf/10.1145/3695053.3731026},
+  abstract = {The rapid increase in inter-host networking speed has challenged host processing capabilities, as bursty traffic and uneven load distribution among host CPU cores give rise to excessive queuing delays and service latency variances. To cost-efficiently tackle this challenge, the latest Intel Xeon Scalable Processor has integrated an on-chip accelerator, named Dynamic Load Balancer (DLB). It consists of hardware queues, arbiters, and priority-based Quality of Service (QoS) features to maximize load-balancing performance while minimizing host CPU cycle consumption. In this work, we first compare the performance of DLB against popular software-based load balancers with a microbenchmark suite, demonstrating that DLB significantly outperforms them. Yet, DLB still consumes a significant number of host CPU cycles to prepare and enqueue work descriptors for received packets. Second, to eliminate the consumption of host CPU cycles in load balancing, we propose a system architecture/software co-design solution, AccDirect. Specifically, AccDirect leverages the Peer-to-Peer (P2P) communication capability of PCIe devices to enable a direct communication path between DLB and NIC, through which NIC directly enqueues the work descriptors. Our evaluation shows that AccDirect-based DLB offers practically the same performance as conventional DLB while reducing the system-wide power consumption of host CPU by 10\%. Compared to the throughput of a commodity hardware-based load balancer for an end-to-end application, that of AccDirect-based DLB is 14--50\% higher with comparable p99 latency. Lastly, we provide guidelines to make the best use of DLB, which is riddled with a vast configuration space and advanced features, after conducting a comprehensive evaluation.},
+  selected = {true},
+  artifact_available = {true},
+  artifact_evaluated_functional = {true},
+  results_reproduced = {true}
+}
+
+@article{lou2025hintcal,
+  abbr = {CAL},
+  title = {{HINT: A Hardware Platform for Intra-host NIC Traffic and SmartNIC Emulation}},
+  author = {Jiaqi Lou* and Yu Li* and Srikar Vanavasam and Nam Sung Kim},
+  year = {2025},
+  journal = {IEEE Computer Architecture Letters},
+  html = {https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11048525},
+  abstract = {Recent performance advancements in inter-host networking demand innovations in intra-host communication and SmartNIC-accelerated in-network processing. However, developing novel SmartNIC features remains difficult due to absence of hardware observability and low-cost, deterministic testing environments with existing software-based or commercial development platforms. While FPGA-based SmartNICs offer high flexibility and performance for packet processing acceleration, existing solutions support only a limited subset of network technologies widely used in commercial datacenters. To address these challenges, we introduce HINT, an FPGA-based development and emulation platform that transparently mimics a commercial SmartNIC in the system, featuring controlled network traffic generation with a high-performance traffic engine and kernel-bypass network technologies. It also supports configurable workload patterns, nanosecond-level latency measurement, and a reconfigurable Receive Side Scaling (RSS) engine for load balancing. Our evaluation shows that HINT achieves 91\% of PCIe's theoretical efficiency, providing a highly effective and scalable platform to emulate an end-to-end system with support for diverse network stacks. HINT thus establishes an accessible, high-fidelity platform for SmartNIC development and emulation, along with architectural exploration of intra-host communication.},
+  annotation = {* Equal authorship},
+  selected = {true}
+}
