@@ -9,4 +9,4 @@ location: University of Illinois Urbana-Champaign
 course_id: ece411-uiuc
 ---
 
-Teaching assistant for *ECE 411: Computer Organization and Design*. Advised final projects for three teams implementing out-of-order CPU designs.
+Teaching assistant for _ECE 411: Computer Organization and Design_. Advised final projects for three teams implementing out-of-order CPU designs.

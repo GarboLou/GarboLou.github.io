@@ -1,14 +1,14 @@
 ---
 ---
 {% assign has_artifact_badges = false %}
-{% assign artifact_badge_policy_url = "https://www.acm.org/publications/policies/artifact-review-and-badging-current" %}
-{% if entry.artifact_available and entry.artifact_available != "false" %}
+{% assign artifact_badge_policy_url = 'https://www.acm.org/publications/policies/artifact-review-and-badging-current' %}
+{% if entry.artifact_available and entry.artifact_available != 'false' %}
   {% assign has_artifact_badges = true %}
 {% endif %}
-{% if entry.artifact_evaluated_functional and entry.artifact_evaluated_functional != "false" %}
+{% if entry.artifact_evaluated_functional and entry.artifact_evaluated_functional != 'false' %}
   {% assign has_artifact_badges = true %}
 {% endif %}
-{% if entry.results_reproduced and entry.results_reproduced != "false" %}
+{% if entry.results_reproduced and entry.results_reproduced != 'false' %}
   {% assign has_artifact_badges = true %}
 {% endif %}
 
@@ -72,17 +72,22 @@
       {% endif %}
       {% if has_artifact_badges %}
         <div class="badges artifact-badges mt-2 d-flex flex-wrap justify-content-center" style="gap: 0.25rem;">
-          {% if entry.artifact_available and entry.artifact_available != "false" %}
+          {% if entry.artifact_available and entry.artifact_available != 'false' %}
             <a href="{{ artifact_badge_policy_url }}" aria-label="Artifact Available" role="button">
               <img src="{{ "/assets/img/artifact-badges/artifacts_available.jpg" | relative_url }}" width="30" height="30" alt="Artifact Available">
             </a>
           {% endif %}
-          {% if entry.artifact_evaluated_functional and entry.artifact_evaluated_functional != "false" %}
+          {% if entry.artifact_evaluated_functional and entry.artifact_evaluated_functional != 'false' %}
             <a href="{{ artifact_badge_policy_url }}" aria-label="Artifact Evaluated - Functional" role="button">
-              <img src="{{ "/assets/img/artifact-badges/artifacts_evaluated_functional.jpg" | relative_url }}" width="30" height="30" alt="Artifact Evaluated - Functional">
+              <img
+                src="{{ "/assets/img/artifact-badges/artifacts_evaluated_functional.jpg" | relative_url }}"
+                width="30"
+                height="30"
+                alt="Artifact Evaluated - Functional"
+              >
             </a>
           {% endif %}
-          {% if entry.results_reproduced and entry.results_reproduced != "false" %}
+          {% if entry.results_reproduced and entry.results_reproduced != 'false' %}
             <a href="{{ artifact_badge_policy_url }}" aria-label="Results Reproduced" role="button">
               <img src="{{ "/assets/img/artifact-badges/results_reproduced.jpg" | relative_url }}" width="30" height="30" alt="Results Reproduced">
             </a>
