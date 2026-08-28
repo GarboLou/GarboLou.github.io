@@ -1,0 +1,50 @@
+{% if site.teachings %}
+  {% assign teachings = site.teachings | sort: 'year' | reverse %}
+  <div class="experience-details teaching-details">
+    {% for course in teachings %}
+      {% capture course_period %}
+        {% if course.period %}
+          {{ course.period }}
+        {% elsif course.term and course.year %}
+          {{ course.term }} {{ course.year }}
+        {% elsif course.year %}
+          {{ course.year }}
+        {% endif %}
+      {% endcapture %}
+      {% assign course_period = course_period | strip %}
+      {% assign course_role = course.role | default: course.instructor %}
+
+      <article class="experience-detail teaching-detail">
+        <header class="experience-detail-header">
+          <div>
+            <h2>
+              <a href="{{ course.url | relative_url }}">{{ course.title }}</a>
+            </h2>
+            {% if course_role %}
+              <p class="experience-role">{{ course_role }}</p>
+            {% endif %}
+          </div>
+          {% if course_period != '' %}
+            <p class="experience-period">{{ course_period }}</p>
+          {% endif %}
+        </header>
+
+        {% if course.location or course.course_id %}
+          <p class="experience-meta">
+            {% if course.location %}
+              {{ course.location }}
+            {% endif %}
+            {% if course.course_id %}
+              <span aria-hidden="true">/</span>
+              {{ course.course_id | split: '-' | first | upcase }}
+            {% endif %}
+          </p>
+        {% endif %}
+
+        <div class="experience-content">{{ course.content }}</div>
+      </article>
+    {% endfor %}
+  </div>
+{% else %}
+  <p>No teaching experience available yet.</p>
+{% endif %}

@@ -2,6 +2,7 @@
 layout: course
 title: Computer Organization and Design
 description: Graduate Teaching Assistant for ECE 411 at the University of Illinois Urbana-Champaign.
+role: Graduate Teaching Assistant
 instructor: Teaching Assistant
 year: 2023
 term: Spring

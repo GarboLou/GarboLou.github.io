@@ -1,0 +1,37 @@
+- organization: IBM Research
+  logo: /assets/img/company-icons/ibm-preferred.png
+  logo_class: ibm-preferred
+  url: /experiences/ibm-research/
+  role: Visiting Scholar
+  location: Yorktown Heights, NY, USA
+  period: May 2026 - August 2026
+  mentors: I-Hsin Chung, Hubertus Franke, Alaa Youssef
+  summary: Intra-host network topology and routing optimization research through the IBM-UIUC IIDAI research center program.
+  highlights:
+    - IBM Extern through the IBM-UIUC IIDAI research center program.
+    - Worked on intra-host network topology research and routing optimizations, focusing on PCIe multi-path communication.
+
+- organization: Intel Labs
+  logo: /assets/img/company-icons/intel-blue-tile.png
+  logo_class: intel-blue-tile
+  url: /experiences/intel-labs/
+  role: Research Intern
+  location: Hillsboro, OR, USA
+  period: May 2024 - August 2024
+  mentors: Ren Wang, Atul Kwatra
+  summary: Characterization and use-case exploration for on-chip accelerators in Intel Xeon Scalable processors.
+  highlights:
+    - Researched characterizations and use cases of on-chip accelerators on Intel 4th-Generation Xeon Scalable Processors and future generations.
+
+- organization: Microsoft Research
+  logo: /assets/img/company-icons/microsoft-preferred.png
+  logo_class: microsoft-preferred
+  url: /experiences/microsoft-research/
+  role: Research Intern
+  location: Redmond, WA, USA
+  period: June 2022 - August 2022
+  mentors: Wei Bai, Ranveer Chandra
+  summary: Kernel-bypass networking and disaggregated storage research for public cloud systems.
+  highlights:
+    - Researched multi-tenancy challenges for kernel-bypass networking, including RDMA and DPDK, in public clouds.
+    - Explored disaggregated storage with NVMe over fabrics in the networking group.

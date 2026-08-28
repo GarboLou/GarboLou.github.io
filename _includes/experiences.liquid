@@ -1,0 +1,37 @@
+<div class="experience-details">
+  {% for experience in site.data.experiences %}
+    <article class="experience-detail">
+      <header class="experience-detail-header">
+        <div>
+          <h2>
+            {% if experience.url %}
+              <a href="{{ experience.url | relative_url }}">{{ experience.organization }}</a>
+            {% else %}
+              {{ experience.organization }}
+            {% endif %}
+          </h2>
+          <p class="experience-role">{{ experience.role }}</p>
+        </div>
+        <p class="experience-period">{{ experience.period }}</p>
+      </header>
+
+      {% if experience.mentors %}
+        <p class="experience-meta experience-meta-row">
+          <span class="experience-meta-label">Mentors</span>
+          <span>{{ experience.mentors }}</span>
+        </p>
+      {% endif %}
+
+      {% if experience.location %}
+        <p class="experience-meta experience-meta-row">
+          <span class="experience-meta-label">Location</span>
+          <span>{{ experience.location }}</span>
+        </p>
+      {% endif %}
+
+      {% if experience.summary %}
+        <p>{{ experience.summary }}</p>
+      {% endif %}
+    </article>
+  {% endfor %}
+</div>

@@ -1,0 +1,38 @@
+{% assign experience_limit = include.limit | default: 3 %}
+
+<div class="home-experience-list">
+  {% for experience in site.data.experiences limit: experience_limit %}
+    <article class="home-experience-item">
+      <div class="home-experience-main">
+        {% if experience.logo %}
+          <span class="home-experience-logo home-experience-logo-{{ experience.logo_class | default: 'square' }}">
+            <img src="{{ experience.logo | relative_url }}" alt="{{ experience.organization }} logo">
+          </span>
+        {% endif %}
+        <div>
+          <h3>
+            {% if experience.url %}
+              <a href="{{ experience.url | relative_url }}">{{ experience.organization }}</a>
+            {% else %}
+              {{ experience.organization }}
+            {% endif %}
+          </h3>
+          <p>{{ experience.role }}</p>
+          {% comment %}
+          <div class="home-experience-extra">
+            {% if experience.mentors %}
+              <span><strong>Mentors:</strong> {{ experience.mentors }}</span>
+            {% endif %}
+            {% if experience.location %}
+              <span><strong>Location:</strong> {{ experience.location }}</span>
+            {% endif %}
+          </div>
+          {% endcomment %}
+        </div>
+      </div>
+      <div class="home-experience-meta">
+        <span>{{ experience.period }}</span>
+      </div>
+    </article>
+  {% endfor %}
+</div>

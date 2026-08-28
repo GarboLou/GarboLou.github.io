@@ -1,0 +1,11 @@
+{% assign news_limit = include.limit | default: 4 %}
+{% assign news_items = site.data.news | sort: 'date' | reverse %}
+
+<ul class="home-news-list">
+  {% for item in news_items limit: news_limit %}
+    <li>
+      <time datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: '%b %Y' }}</time>
+      <span>{{ item.text | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span>
+    </li>
+  {% endfor %}
+</ul>

@@ -1,0 +1,34 @@
+---
+layout: page
+---
+
+<div class="experience-details single-experience">
+  <article class="experience-detail">
+    <header class="experience-detail-header">
+      <div>
+        {% if page.role %}
+          <p class="experience-role">{{ page.role }}</p>
+        {% endif %}
+      </div>
+      {% if page.period %}
+        <p class="experience-period">{{ page.period }}</p>
+      {% endif %}
+    </header>
+
+    {% if page.mentors %}
+      <p class="experience-meta experience-meta-row">
+        <span class="experience-meta-label">Mentors</span>
+        <span>{{ page.mentors }}</span>
+      </p>
+    {% endif %}
+
+    {% if page.location %}
+      <p class="experience-meta experience-meta-row">
+        <span class="experience-meta-label">Location</span>
+        <span>{{ page.location }}</span>
+      </p>
+    {% endif %}
+
+    <div class="experience-content">{{ content }}</div>
+  </article>
+</div>
