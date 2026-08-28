@@ -7,7 +7,7 @@ nav: true
 nav_order: 2
 ---
 
-"*" marks equal authorship.
+"\*" marks equal authorship.
 
 {% include bib_search.liquid %}
 
