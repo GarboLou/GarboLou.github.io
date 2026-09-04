@@ -10,6 +10,7 @@ profile:
   image_circular: false
   more_info: >
     <p>Ph.D. Student @ UIUC</p>
+    <p>[<a href="/resume/">Resume</a>]</p>
     <p>garbolou1998 AT gmail DOT com</p>
     <p>jiaqil6 AT illinois DOT edu</p>
 

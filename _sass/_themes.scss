@@ -503,3 +503,36 @@ html[data-theme-setting="light"] {
     display: block;
   }
 }
+
+.resume-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin-bottom: 1rem;
+}
+
+.resume-actions a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.35rem 0.8rem;
+  border: 1px solid color-mix(in srgb, var(--global-theme-color) 30%, var(--global-divider-color));
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--global-theme-color) 7%, var(--global-bg-color));
+  color: var(--global-theme-color);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.resume-actions a:hover {
+  border-color: var(--global-hover-color);
+  color: var(--global-hover-color);
+}
+
+.resume-embed {
+  width: 100%;
+  min-height: 78vh;
+  border: 1px solid color-mix(in srgb, var(--global-divider-color) 82%, transparent);
+  border-radius: 0.45rem;
+  background: var(--global-bg-color);
+}
