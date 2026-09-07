@@ -1,1 +1,47 @@
-{}
+metadata:
+  last_updated: '2026-09-07'
+papers:
+  YSHtzMkAAAAJ:5nxA0vEk-isC:
+    citations: 3
+    title: 'A4: Microarchitecture-Aware LLC Management for Datacenter Servers with Emerging I/O Devices'
+    year: '2025'
+  YSHtzMkAAAAJ:8k81kl-MbHgC:
+    citations: 8
+    title: 'Dynamic Load Balancer in Intel Xeon Scalable Processor: Performance Analyses, Enhancements, and Guidelines'
+    year: '2025'
+  YSHtzMkAAAAJ:9yKSN-GCB0IC:
+    citations: 4
+    title: 'LADIO: Leakage-aware direct I/O for I/O-intensive workloads'
+    year: '2023'
+  YSHtzMkAAAAJ:MXK_kJrjxJIC:
+    citations: 1
+    title: 'HINT: A Hardware Platform for Intra-Host NIC Traffic and SmartNIC Emulation'
+    year: '2025'
+  YSHtzMkAAAAJ:W7OEmFMy1HYC:
+    citations: 312
+    title: Demystifying cxl memory with genuine cxl-ready systems and devices
+    year: '2023'
+  YSHtzMkAAAAJ:Y0pCki6q_DkC:
+    citations: 11
+    title: Making Sense of Using a SmartNIC to Reduce Datacenter Tax from SLO and TCO Perspectives
+    year: '2023'
+  YSHtzMkAAAAJ:YsMSGLbcyi4C:
+    citations: 24
+    title: 'Harmonic: Hardware-assisted {RDMA} Performance Isolation for Public Clouds'
+    year: '2024'
+  YSHtzMkAAAAJ:d1gkVwhDpl0C:
+    citations: 10
+    title: Towards a Manageable Intra-Host Network
+    year: '2023'
+  YSHtzMkAAAAJ:hqOjcs7Dif8C:
+    citations: 9
+    title: 'HAL: Hardware-assisted Load Balancing for Energy-efficient SNIC-Host Cooperative Computing'
+    year: '2024'
+  YSHtzMkAAAAJ:u-x6o8ySG0sC:
+    citations: 3
+    title: Analyzing Energy Efficiency of a Server with a SmartNIC under SLO Constraints
+    year: '2023'
+  YSHtzMkAAAAJ:u5HHmVD_uO8C:
+    citations: 6
+    title: 'MESA: Microarchitecture Extensions for Spatial Architecture Generation'
+    year: '2023'
